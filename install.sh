@@ -56,8 +56,8 @@ sudo ufw logging on &>/dev/null
 echo "y" | sudo ufw enable &>/dev/null
 echo -e "${GREEN}Completion: 90%...${NC}"
 sleep 2
-sudo chmod +x /root/nodexchange/nodexchanged /root/nodexchange/nodexchange-cli
-sudo mv /root/nodexchange/nodexchanged /root/nodexchange/nodexchange-cli /usr/local/bin
+sudo chmod +x /root/nxg-setup/nodexchanged /root/nxg-setup/nodexchange-cli
+sudo mv /root/nxg-setup/nodexchanged /root/nxg-setup/nodexchange-cli /usr/local/bin
 sleep 2
 sudo mkdir /root/.nodexchange
 echo "rpcuser=user"`shuf -i 100000-10000000 -n 1` >> /root/.nodexchange/nodexchange.conf
