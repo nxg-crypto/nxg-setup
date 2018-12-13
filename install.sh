@@ -51,7 +51,7 @@ sleep 2
 sudo apt-get install -y ufw &>/dev/null
 sudo ufw allow ssh/tcp &>/dev/null
 sudo ufw limit ssh/tcp &>/dev/null
-sudo ufw allow 28321/tcp &>/dev/null
+sudo ufw allow 28320/tcp &>/dev/null
 sudo ufw logging on &>/dev/null
 echo "y" | sudo ufw enable &>/dev/null
 echo -e "${GREEN}Completion: 90%...${NC}"
@@ -69,8 +69,8 @@ echo -e "${GREEN}Completion: 95%...${NC}"
 echo "daemon=1" >> /root/.nodexchange/nodexchange.conf
 echo "maxconnections=250" >> /root/.nodexchange/nodexchange.conf
 echo "masternode=1" >> /root/.nodexchange/nodexchange.conf
-echo "masternodeaddr$IP:28321" >> /root/.nodexchange/nodexchange.conf
-echo "externalip$IP:28321" >> /root/.nodexchange/nodexchange.conf
+echo "masternodeaddr$IP:28320" >> /root/.nodexchange/nodexchange.conf
+echo "externalip$IP:28320" >> /root/.nodexchange/nodexchange.conf
 echo "masternodeprivkey=$KEY" >> /root/.nodexchange/nodexchange.conf
 echo -e "${GREEN}Completion: 99%...${NC}"
 cd /root
