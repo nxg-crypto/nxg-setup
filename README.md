@@ -34,9 +34,9 @@ cd && sudo apt-get update -y &>/dev/null && sudo apt-get update -y &>/dev/null &
 1. Open your wallet
 2. Go to Tools -> Open Masternode Configuration File
 3. Enter the following on one single line after the example configuration
-```<alias> <ip>:21121 <private_key> <tx_id> <index>```
+```<alias> <ip>:28320 <private_key> <tx_id> <index>```
 4. It should look something like this:
-```mn1 127.0.0.1:21121 93HaYBVUCYjEMeeH1Y4sBGLALQZE1Yc1K64xiqgX37tGBDQL8Xg 2bcd3c84c84f87eaa86e4e56834c92927a07f9e18718810b92e0d0324456a67c 0```
+```mn1 127.0.0.1:28320 93HaYBVUCYjEMeeH1Y4sBGLALQZE1Yc1K64xiqgX37tGBDQL8Xg 2bcd3c84c84f87eaa86e4e56834c92927a07f9e18718810b92e0d0324456a67c 0```
 5. Save and close the file and restart your wallet.
 
 # Part 4 - Starting the Masternode
